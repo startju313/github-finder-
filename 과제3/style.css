@@ -1,0 +1,39 @@
+body {
+  background-color: #f8f9fa;
+}
+
+#profile img {
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.repo {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.repo-badges {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.repo-badges .badge {
+  font-size: 0.9rem;
+  padding: 6px 10px;
+}
+
+/* 추가된 부분 */
+#searchBtn {
+  display: inline-block; /* 기본 상태로 보이도록 */
+}
+
+/* 선택: class 방식 쓰는 경우
+.hidden {
+  display: none !important;
+}
+*/
